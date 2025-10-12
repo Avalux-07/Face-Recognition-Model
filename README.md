@@ -20,6 +20,6 @@
 
 # Full proccess:
 1. download this repo & install 'opencv-contrib-python' in your system through terminal by this command "pip install opencv-contrib-python".
-2. open the create_data.py file then add the sub_data 'name' according to the person or subject  that you're going to use, then run it. It will open local cam, take 100 pieces of pictures of the subject whom you want to recognize & save them in the sub_data folder as your given 'name'.
+2. open the create_data.py file then add the name at "sub_data='name'" according to the person or subject  that you're going to use, then run it. It will open local camera, take 100 pictures of the subject whom you want to recognize & save those pics in the 'datasets' folder as your given 'name'.
 3. Now just open the face_recognize.py file and run it, it will open the cam. Now just put the person or subject infront of camera & **instantly it will easily recognize the person by his/her name that you gave**.    
      
